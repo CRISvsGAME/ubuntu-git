@@ -1,10 +1,3 @@
-# Ubuntu Git
-
-## Install
-
-### Bash
-
-```sh
 #!/usr/bin/env bash
 
 set -euo pipefail
@@ -84,4 +77,3 @@ run_cmd "Installing $PKG_NAME... " \
     apt-get install -qq "$PKG_NAME"
 
 exit_success "$PKG_NAME has been installed successfully."
-```
